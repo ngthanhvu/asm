@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+  
+body {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden ;
+}
+
+/* Navbar edit */
+
+nav {
+  position: relative;
+  padding: 30px 0px;
+}
+
+.navbar-icon img {
+  position: absolute;
+  left: 10rem;
+}
+
+.navbar-icon img, .navbar__menu, form {
+  position: absolute;
+  top: 20px;
+}
+
+.navbar__menu {
+  list-style: none;
+  position: absolute;
+  display: flex;
+  right: 35rem;
+}
+
+.navbar__menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar__menu a:hover {
+  color: #ED8627;
+  border-bottom: 3px solid #FF902B;
+  padding-bottom: 10px;
+}
+
+.navbar__menu li {
+  padding: 0px 30px;
+}
+
+.navbar-icon form {
+  position: absolute;
+  right: 15rem;
+  top: 10px;
+}
+
+.navbar-icon form i {
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  color: #000;
+}
+
+.navbar-icon form i:hover {
+  color: #ED8627;
+}
+
+.navbar-icon form input {
+  background-color: #fff;
+  border-radius: 60px;
+  border: #eee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+#sanpham {
+  color: #ED8627;
+  border-bottom: 3px solid #FF902B;
+  padding-bottom: 10px;
+}
+
+input[type=search]:focus {
+  outline: 1px transparent;
+}
+
+/* main edit */
+
+.main-content-ship-2 {
+  position: relative;
+  top: 8rem;
+  left: 1rem;
+}
+
+.main-content-ship-title_text-2 {
+  position: absolute;
+  width: 315px;
+  height: 54px;
+  left: 110px;
+  top: -80px;
+}
+
+.main-content-ship_border-bottom-2 {
+  width: 100px;
+  top: 40px;
+  left: 120px;
+  position: absolute;
+  height: 4px;
+  background-color: #F4AE26;
+  border-radius: 12px;
+}
+
+.main-content-ship-title_text--group-2 h4 {
+  width: 35rem;
+  font-weight: 650;
+  font-size: 25px;
+}
+
+
+.container-main-card-1 {
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  top: -50px;
+  left: 250px;
+}
+
+.container-main-card_body-1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.container-main-card-1 img {
+  padding: 0px 10px;
+}
+
+.container-main-card_body-1 span:nth-of-type(2) {
+  padding-left: 100px;
+}
+
+.container-main-card_body-1 button {
+  padding: 5px 30px;
+  background-color: #ED8627;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 80px;
+}
+
+.container-main-card_body-1 button:hover {
+  background-color: #bb6f27;
+}
+
+.container-main-bottom .col-md-4 {
+  padding-top: 50px;
+  margin-right: -130px;
+}
+
+.container-main-semi-bottom_title {
+  width: 81rem;
+  height: 400px;
+  background-color: #F6EAD9;
+  position: relative;
+  top: 180px;
+}
+
+.container-main-semi-bottom_title span {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.container-main-semi-bottom_title p {
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  opacity: 70%;
+}
+
+/* Footer edit */
+
+footer {
+  background-color: #F6EBD9;
+  color: #000;
+  position: relative;
+  top: 150px;
+  height: 300px;
+}
+
+.footer__row {
+  padding-top: 40px;
+}
+
+.footer__row .col-md-4 p {
+  /* text-align: justify; */
+  padding-right: 50px;
+  line-height: 30px;
+}
+
+.footer__row .col-md-4 h4 {
+  font-weight: 700;
+}
+
+.footer__img {
+  width: 200px;
+  padding-left: 35px;
+}
+
+.footer__icon li {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.footer__icon a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link__ft-1 {
+  margin-top: 5px;
+}
+
+.link__ft-1 a:hover {
+  color: blue;
+}
+
+#other-title {
+  margin-left: 30px;
+}
+
+.footer__link li {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.footer__link a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer .footer--copyrigt {
+  position: absolute;
+  bottom: 20px;
+  left: 200px;
+}
+
+footer .footer--linker {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  right: 100px;
+  bottom: 20px;
+}
+
+footer .footer--linker li {
+  padding: 0px 10px;
+}
+
+footer .footer--linker a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .footer--linker a:hover {
+  color: blue;
+}
+
